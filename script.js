@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", init, false);
 
 window.onload = function(){
     document.getElementById("searchCountry").onclick = resultSection;
+
 };
 
 function resultSection() {
@@ -83,6 +84,15 @@ function resultSection() {
                   };
 
     document.getElementById('travelResult').innerHTML = (tableMaker(results));
+
+// Show and hide title 
+
+    var x = document.getElementById("returnTitle");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "block";
+        }
 
 
 };
