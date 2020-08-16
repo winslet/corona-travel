@@ -74,7 +74,7 @@ function resultSection() {
     var results = _.intersectionBy(firstCountry, secondCountry, 'Country');
 
     // document.getElementById('travelResult').innerHTML = JSON.stringify(results);
-    // console.log(results)
+    console.log(results)
 
 
     tableMaker = o => {var keys = Object.keys(o[0]),
@@ -83,9 +83,16 @@ function resultSection() {
                    return "<table>" + rows + "</table>";
                   };
 
+    //     $.each(results.Country, function(i, Country) {
+    //     var tblRow =    "<tr><td>" + results.Country +
+    //                     "</td><td>" + person.documentname +
+    //                     "</td><td><a target='_blank' href='"+ person.link.split('href=')[1]+"' >"+person.link.split('href=')[1]+"</a></td></tr>"
+    //     $(tblRow).appendTo("#userdata tbody");
+    // });
+
     document.getElementById('travelResult').innerHTML = (tableMaker(results));
 
-// Show and hide title 
+// Show and hide title
 
     var x = document.getElementById("returnTitle");
         if (x.style.display === "none") {
