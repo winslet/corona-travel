@@ -47,6 +47,7 @@ function resultSection() {
     var countryB = f.value;
     // console.log(countryB);
 
+  // if you added a country array, create another else if statement, so the selection in the drop-down is associated to the new array
     if (countryA === "UK"){
    var firstCountry = UK
  } else if (countryA === "USA") {
@@ -59,6 +60,8 @@ function resultSection() {
    var firstCountry = "Error"
  };
 
+   // if you added a country array, create another else if statement here too, so the selection in the drop-down is associated to the new array
+  
   if (countryB === "UK"){
    var secondCountry = UK
  } else if (countryB === "USA") {
