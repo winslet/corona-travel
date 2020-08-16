@@ -70,7 +70,7 @@ function resultSection() {
    var secondCountry = "Error"
  };
 
-    var results = _.intersectionBy(firstCountry, secondCountry, 'id');
+    var results = _.intersectionBy(firstCountry, secondCountry, 'Country');
 
     // document.getElementById('travelResult').innerHTML = JSON.stringify(results);
     // console.log(results)

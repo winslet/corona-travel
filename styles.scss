@@ -48,11 +48,14 @@ table {
     border-spacing: 0;
     font-family: 'IBM Plex Serif', serif;
     font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    overflow-x: auto; 
 }
 th {
-    background-color: #DDEFEF;
+    background-color: #CB9972;
     border: solid 1px #3A3C3A;
-    color: #09594E;
+    color: #3A3C3A;
     padding: 10px;
     text-align: left;
 }
