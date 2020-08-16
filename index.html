@@ -4,30 +4,57 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="simple-grid.min.css">
   <link rel="stylesheet" href="styles.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
   <script src="data.js"></script>
   <script src="script.js"></script>
 </head>
 <body>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+       <img class="header-image" src="img/travelers_qlt1.svg" alt="travelling is fun">
+        <h2>Where can I Corona Travel?</h2>
+        <p>Want to know where you can go travelling, but not sure where you can go? Enter your nationality below and see where you will be allowed in. This is especially useful for travellers from different countries and will compare locations to see what you are both allowed</p>
+        <i>Be cautious: this data is manually updated, be sure to check the included links before travelling</i>
+    </div>
 
-  <h2>Where can I CoronaTravel?</h2>
+      <div class="col-12">
+       <form id="myForm">
+         <hr>
+         <p1 class="comboboxNationality">Person 1 Nationality</p1>
+        <select id="selectCountry1">
+        </select>
+         <hr>
+          <p1 class="comboboxNationality">Person 2 Nationality</p1>
+           <select id="selectCountry2">
+        </select>
+        </form>
+      </div>
+         <div class="col-12">
+          <input id="searchCountry" type="button" value="Take us travelling"/>
+        </div>
 
- <form id="myForm">
-   <p1>Person 1 Nationality</p1><br>
-  <select id="selectCountry1">
-  </select>
-   <br>
-    <p1>Person 2 Nationality</p1><br>
-     <select id="selectCountry2">
-  </select>
-   <br><br>
-    <input id="searchCountry" type="button" value="Take me travelling"/>
-</form>
+  </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>You can travel to:</h2>
+          <div id="travelResult"></div>
+      </div>
+    </div>
 
+  <div class="row">
+    <div class="col-12">
+    </div>
+  </div>
 
-  <h2>You can travel to</h2>
-  <div id="travelResult"></div>
+</div>
+<footer>
+<p><a href="https://github.com/winslet/corona-travel">Help out this project on Github</a></p>
+ <p>Author: Sam Winslet</p>
+ <p>Licensed under AGPL-3.0</p>
+</footer>
 
   </body>
 </html>

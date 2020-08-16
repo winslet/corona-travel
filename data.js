@@ -1,24 +1,24 @@
 const UK = [
-    {id:'GB', name:'Great Britain', Quarantine:'14 Day', info:'visit gov.uk'},
-    {id:'CR', name:'Croatia', Quarantine:'0 Day', info:'visit gov.uk/'},
-    {id:'EU', name:'European Union', Quarantine:'0 Day', info:'visit gov.uk/'},
-    {id:'IRL', name:'Ireland', Quarantine:'0 Day', info:'visit gov.uk/'}
+    {id:'GB', Country:'Great Britain', Quarantine:'14 Day', 'Futher Information':'visit gov.uk'},
+    {id:'CR', Country:'Croatia', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'},
+    {id:'EU', Country:'European Union', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'},
+    {id:'IRL', Country:'Ireland', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'}
  ];
 const USA = [
-    {id:'USA', name:'USA', Quarantine:'14 Day', info:'visit gov.uk/'},
-    {id:'CR', name:'Croatia', Quarantine:'14 Day', info:'visit us.gov.croatia'},
-    {id:'IRL', name:'Ireland', Quarantine:'0 Day', info:'visit gov.uk/'}
+    {id:'USA', Country:'USA', Quarantine:'14 Day', 'Futher Information':'visit gov.uk/'},
+    {id:'CR', Country:'Croatia', Quarantine:'14 Day', 'Futher Information':'visit us.gov.croatia'},
+    {id:'IRL', Country:'Ireland', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'}
  ];
 const EU = [
-    {id:'GB', name:'Great Britain', Quarantine:'14 Day', info:'visit gov.uk/'},
-    {id:'CR', name:'Croatia', Quarantine:'14 Day', info:'visit us.gov.croatia'},
-    {id:'IRL', name:'Ireland', Quarantine:'0 Day', info:'visit gov.uk/'},
-    {id:'EU', name:'European Union', Quarantine:'0 Day', info:'visit gov.uk/'},
+    {id:'GB', Country:'Great Britain', Quarantine:'14 Day', 'Futher Information':'visit gov.uk/'},
+    {id:'CR', Country:'Croatia', Quarantine:'14 Day', 'Futher Information':'visit us.gov.croatia'},
+    {id:'IRL', Country:'Ireland', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'},
+    {id:'EU', Country:'European Union', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'},
  ];
 const IRL = [
-    {id:'GB', name:'Great Britain', Quarantine:'14 Day', info:'visit gov.uk/'},
-    {id:'EU', name:'European Union', Quarantine:'0 Day', info:'visit gov.uk/'},
-    {id:'IRL', name:'Ireland', Quarantine:'0 Day', info:'visit gov.uk/'}
+    {id:'GB', Country:'Great Britain', Quarantine:'14 Day', 'Futher Information':'visit gov.uk/'},
+    {id:'EU', Country:'European Union', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'},
+    {id:'IRL', Country:'Ireland', Quarantine:'0 Day', 'Futher Information':'visit gov.uk/'}
  ];
 
 const options = ["UK", "USA", "EU", "IRL"];
