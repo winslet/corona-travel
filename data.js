@@ -1,6 +1,6 @@
 const UK = [
   {Country:'United Kingdom', 'Quarantine on arrival':'0 Day', 'Person 1 Entry Info':'n/a'},
-  {Country:'Austria', 'Quarantine on arrival':'Unknown', 'Person 1 Entry Info':'https://www.gov.uk/foreign-travel-advice/austria/entry-requirements'},
+  {Country:'Austria', 'Quarantine on arrival':'Unknown', 'Person 1 Entry Info':'<a href="https://www.gov.uk/foreign-travel-advice/austria/entry-requirements">Link</a>'},
   {Country:'Croatia', 'Quarantine on arrival':'Unknown', 'Person 1 Entry Info':'n/a'},
   {Country:'Cyprus', 'Quarantine on arrival':'Unknown', 'Person 1 Entry Info':'n/a'},
   {Country:'Czech Republic', 'Quarantine on arrival':'Unknown', 'Person 1 Entry Info':'n/a'},

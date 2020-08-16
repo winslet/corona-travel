@@ -74,7 +74,7 @@ function resultSection() {
     var results = _.intersectionBy(firstCountry, secondCountry, 'Country');
 
     // document.getElementById('travelResult').innerHTML = JSON.stringify(results);
-    console.log(results)
+    // console.log(results)
 
 
     tableMaker = o => {var keys = Object.keys(o[0]),

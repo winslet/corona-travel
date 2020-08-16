@@ -44,26 +44,33 @@ input {
 }
 
 table {
-    border: solid 1px #3A3C3A;
+    // border: solid 1px #3A3C3A;
+    border: solid 3px #FDF8F4;
     border-collapse: collapse;
     border-spacing: 0;
     font-family: 'IBM Plex Serif', serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 1rem;
     width: 100%;
-    overflow-x: auto;
+    word-break:break-word;
 }
 th {
-    background-color: #CB9972;
-    border: solid 1px #3A3C3A;
+    // background-color: #CB9972;
+    // border-bottom: solid 2px #3A3C3A;
     color: #3A3C3A;
     padding: 10px;
+    margin-bottom: 10px;
     text-align: left;
 }
 tbody td {
-    border: solid 1px #3A3C3A;
+    // border: solid 1px #3A3C3A;
+    border-bottom: solid 5px #FDF8F4;
     color: #333;
     padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-break:break-word;
+    background-color: white;
 }
 
 footer {
