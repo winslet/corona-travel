@@ -85,6 +85,17 @@ i {
   line-height: 1.6rem;
 }
 
+@keyframes slideInFromLeft {
+  0% {
+     opacity: 0;
+     transform: translateY(-30px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
 .comboboxNationality {
   padding-right: 1rem;
 }
@@ -95,6 +106,7 @@ i {
 }
 
 .container {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .smallLink {
