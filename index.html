@@ -29,6 +29,7 @@
         <h2>Where can I Corona Travel?</h2>
         <p>Want to see someone from another country, but not sure where you can both travel to during the pandemic? Enter both origin countries below to see where you can meet.</p>
         <i>Be cautious: this data is manually updated and cannot guaranteed to be correct, before travelling check with your government. The table will show the quarantine requirements and links for the first country entered. Switch them around to get the quarantine requirements and links for the other country.</i>
+        <p class="smallLink"><a href="https://github.com/winslet/corona-travel/issues/new">Found an error? Report it here</a></p>
     </div>
 
       <div class="col-12">
@@ -36,10 +37,12 @@
          <hr>
          <p1 class="comboboxNationality">Person 1 Nationality</p1>
         <select id="selectCountry1">
+          <option>Select a country</option>
         </select>
          <hr>
           <p1 class="comboboxNationality">Person 2 Nationality</p1>
            <select id="selectCountry2">
+             <option>Select a country</option>
         </select>
         </form>
       </div>
@@ -53,19 +56,10 @@
         <div class="row">
           <div id="returnContent" class="col-12">
             <h2>You can both travel to:</h2>
+              <p class="smallLink"><i>Last updated Monday 17th August</i></p>
               <div id="travelResult"></div>
-
-              <!-- <table id="userdata" border="5">
-                  <th>Document  Name</th>
-                  <th>Department </th>
-                  <th>Description</th>
-                  <th>Link</th>
-              </table> -->
-
-
-
-                <p><a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/">Data Source for USA</a></p>
-                <p><a href="https://www.gov.uk/guidance/coronavirus-covid-19-countries-and-territories-exempt-from-advice-against-all-but-essential-international-travel">Data Source for UK</a></p>
+                <p class="smallLink"><a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/">Data Source for USA</a></p>
+                <p class="smallLink"><a href="https://www.gov.uk/guidance/coronavirus-covid-19-countries-and-territories-exempt-from-advice-against-all-but-essential-international-travel">Data Source for UK</a></p>
           </div>
         </div>
       </div>
